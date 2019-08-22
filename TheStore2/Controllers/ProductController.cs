@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using TheStore2.Models;
 
+
 namespace TheStore2.Controllers
 {
     public class ProductController : Controller
