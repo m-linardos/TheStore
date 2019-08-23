@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using TheStore2.Models;
 
 
-namespace TheStore2.Controllers
+namespace TheStore2.Controllers             // Controllers control connections
 {
     public class ProductController : Controller
     {
@@ -43,7 +43,7 @@ namespace TheStore2.Controllers
             return View(product);
         }
 
-        // GET: Product/Create
+        // GET: Product/Create //
         public IActionResult Create()
         {
             return View();

@@ -13,6 +13,7 @@ namespace TheStore2.Models
 
         public MyDb(DbContextOptions options) : base(options)
         {
+
         }
     }
 
